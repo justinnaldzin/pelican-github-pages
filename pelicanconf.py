@@ -20,10 +20,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('GitHub', 'https://github.com/justinnaldzin'))
+LINKS = (('GitHub', 'https://github.com/justinnaldzin'),)
 
 # Social widget
-SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/justinnaldzin'))
+SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/justinnaldzin'),)
 
 DEFAULT_PAGINATION = 10
 

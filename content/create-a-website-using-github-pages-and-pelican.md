@@ -2,7 +2,7 @@ Title: Create a website using GitHub Pages and Pelican
 Date: 2017-2-1
 Category: Guides
 
-Using [Pelican](http://docs.getpelican.com) with [GitHub Pages ](https://pages.github.com), this guide shows how to set up a static site for hosting and sharing projects.
+Using [Pelican](http://docs.getpelican.com) with [GitHub Pages](https://pages.github.com), this guide shows how to set up a static site for hosting and sharing projects.
 
 Pelican is a static site generator, written in Python, that requires no database or server-side logic.
 
@@ -151,7 +151,12 @@ git commit -m "First commit."
 git push -u origin master
 ```
 
-Be sure the Pelican source project ignores this directory`
-``sh
-echo "output/" >> .gitignore
+Add a pre-push git hook to the Pelican source repo that handles the automatic pushing of the GitHub Pages repo.  
+This file needs to be placed in the Pelican source directory at `.git/hooks/pre-push`
+```sh
+#!/bin/bash
+lastcommit=`git log origin/master -1 --oneline`
+make publish
+cd output && git add -A && git commit -m "$lastcommit" && git push origin master
+exit 0
 ```
