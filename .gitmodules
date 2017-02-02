@@ -1,0 +1,9 @@
+[submodule "pelican-themes"]
+	path = pelican-themes
+	url = https://github.com/getpelican/pelican-themes
+[submodule "pelican-plugins"]
+	path = pelican-plugins
+	url = https://github.com/getpelican/pelican-plugins
+[submodule "output"]
+	path = output
+	url = https://github.com/username/username.github.io
