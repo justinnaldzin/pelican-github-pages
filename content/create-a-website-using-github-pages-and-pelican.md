@@ -1,6 +1,7 @@
 Title: Create a website using GitHub Pages and Pelican
 Date: 2017-2-1
 Category: Guides
+Tags: pelican, python, github
 
 Using [Pelican](http://docs.getpelican.com) with [GitHub Pages](https://pages.github.com), this guide shows how to set up a static site for hosting and sharing projects.
 
@@ -70,6 +71,7 @@ Create a Markdown document saving with a `.md` extension within the `content` di
 Title: Hello World
 Date: 2017-2-1
 Category: Guides
+Tags: about
 
 Hello World
 ```
@@ -110,9 +112,42 @@ DELETE_OUTPUT_DIRECTORY = False
 ```
 
 ---
-##Generating the static site files and run a devserver
+## Add support for Jupyter Notebooks
 
-Create a Markdown file saving with a `.md` extension within the `content` directory.  For example:
+To have Pelican automatically convert Jupyter Notebooks (files with the extention .ipynb) into posts, we need to install a [plugin](https://github.com/danielfrg/pelican-ipynb).  
+
+Install the Jupyter plugin as a git submodule
+```sh
+git submodule add git://github.com/danielfrg/pelican-ipynb.git pelican-plugins/jupyter
+```
+
+Modify `pelicanconf.py` to activate the plugin
+```
+PLUGIN_PATH = './pelican-plugins'
+PLUGINS = ['ipynb.markup']
+
+# Jupyter
+MARKUP = ('md', 'ipynb')
+IPYNB_USE_META_SUMMARY = True
+```
+
+---
+## Convert Jupyter Notebooks into posts
+
+Copy the notebook into the `content` folder.
+
+Within the `content` folder, create a new metadata file with the same name as the `.ipynb` file but with the extension `.ipynb-meta`.  This file should only include the post's metadata.  For example:
+```
+Title: My Jupyter Notebook
+Date: 2017-02-14
+Category: Guides
+Tags: python
+```
+
+---
+## Generating the static site files and run a devserver
+
+Create additional Markdown files saving with a `.md` extension within the `content` directory.  For example:
 ```txt
 Title: Hello World
 Date: 2017-2-1

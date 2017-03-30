@@ -1,6 +1,7 @@
 Title: Hello World
 Date: 2017-1-30
-Category: Personal
+Category: About
+Tags: about
 
 Welcome!  This is my first post.  Hopefully I keep up with this blog and create some interesting and useful posts.  My goals for this site are to provide:
 
