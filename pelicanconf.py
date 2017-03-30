@@ -34,4 +34,14 @@ DEFAULT_PAGINATION = 10
 THEME = "pelican-themes/pelican-bootstrap3"
 JINJA_EXTENSIONS = ['jinja2.ext.i18n']
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['i18n_subsites']
+PLUGINS = ['i18n_subsites', 'ipynb.markup']
+
+# Jupyter
+MARKUP = ('md', 'ipynb')
+IPYNB_USE_META_SUMMARY = True
+
+
+
+
+
+
