@@ -9,7 +9,7 @@ My name is Justin Naldzin. I'm a **Data Engineer** living in **Philadelphia, PA*
 
 I'm currently working at [Penn Medicine](https://www.pennmedicine.org/) in the [Data Analytics Center](http://www.med.upenn.edu/dac/) where I science the sh\*t out of healthcare data.  Previously, I was a **Product Development Engineer** at [Comcast](https://www.comcast.com/) - responsible for the operations and infrastructure of the Xfinity OnDemand platform.
 
-I'm very passionate about technology and enjoy sharing knowledge to anyone with a similar curiosity.  Most of my work is on [GitHub](https://github.com/justinnaldzin/) with occasionally blog posts at [justinnaldzin.github.io](https://justinnaldzin.github.io/).  I'm not much of a socialite of media but you can reach me at:
+I'm very passionate about technology and enjoy sharing knowledge to anyone with a similar curiosity.  Most of my work is on [GitHub](https://github.com/justinnaldzin/) with occasionally blog posts at [justinnaldzin.github.io](https://justinnaldzin.github.io/).  I'm not much of a socialite of media but you can reach me on:
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -78,17 +78,17 @@ Bootstrap Social Buttons
 https://lipis.github.io/bootstrap-social/
 -->
 <p>
-<a href="https://www.linkedin.com/" style="align:left;width:200px" class="btn btn-block btn-social btn-linkedin icon-left"><span class="fa fa-linkedin"></span> LinkedIn</a>
-<a href="https://www.github.com/" style="width:200px" class="btn btn-block btn-social btn-github right"><span class="fa fa-github"></span> GitHub</a>
-<a href="https://www.youtube.com/" style="width:200px" class="btn btn-block btn-social btn-youtube"><span class="fa fa-youtube"></span> YouTube</a>
-<a href="https://www.facebook.com/" style="width:200px" class="btn btn-block btn-social btn-facebook"><span class="fa fa-facebook"></span> Facebook</a>
-<a href="https://www.twitter.com/" style="width:200px" class="btn btn-block btn-social btn-twitter"><span class="fa fa-twitter"></span> Twitter</a>
+<a href="https://www.linkedin.com/in/justinnaldzin/" style="align:left;width:200px" class="btn btn-block btn-social btn-linkedin icon-left"><span class="fa fa-linkedin"></span> LinkedIn</a>
+<a href="https://www.github.com/justinnaldzin/" style="width:200px" class="btn btn-block btn-social btn-github right"><span class="fa fa-github"></span> GitHub</a>
+<a href="https://www.youtube.com/justinnaldzin/" style="width:200px" class="btn btn-block btn-social btn-youtube"><span class="fa fa-youtube"></span> YouTube</a>
+<a href="https://www.facebook.com/justinnaldzin/" style="width:200px" class="btn btn-block btn-social btn-facebook"><span class="fa fa-facebook"></span> Facebook</a>
+<a href="https://www.twitter.com/justinnaldzin/" style="width:200px" class="btn btn-block btn-social btn-twitter"><span class="fa fa-twitter"></span> Twitter</a>
 </p>
 </div>
 ---
 <div class="container">
 <p>
-<a href="#" style="width:200px" class="btn btn-default"><span class="glyphicon glyphicon-download"></span> Download Resume</a>
+<a href="{filename}/documents/JustinNaldzin.pdf" style="width:200px" class="btn btn-default"><span class="glyphicon glyphicon-download"></span> Download Resume</a>
 </p>
 </div>
 

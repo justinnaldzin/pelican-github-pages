@@ -7,6 +7,7 @@ SITENAME = 'Justin Naldzin'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['images', 'documents']
 
 TIMEZONE = 'America/New_York'
 
