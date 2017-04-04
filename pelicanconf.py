@@ -20,10 +20,14 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('GitHub', 'https://github.com/justinnaldzin'),)
+#LINKS = (('GitHub', 'https://github.com/justinnaldzin'),)
 
 # Social widget
-SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/justinnaldzin'),)
+SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/justinnaldzin'),
+          ('GitHub', 'https://www.github.com/justinnaldzin'),
+          ('YouTube', 'https://www.youtube.com/justinnaldzin'),
+          ('Facebook', 'https://www.facebook.com/justinnaldzin'),
+          ('Twitter', 'https://www.twitter.com/justinnaldzin'),)
 
 DEFAULT_PAGINATION = 10
 
@@ -35,6 +39,7 @@ THEME = "pelican-themes/pelican-bootstrap3"
 JINJA_EXTENSIONS = ['jinja2.ext.i18n']
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['i18n_subsites', 'ipynb.markup']
+GITHUB_USER = 'justinnaldzin'
 
 # Jupyter
 MARKUP = ('md', 'ipynb')
