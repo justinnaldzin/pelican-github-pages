@@ -14,10 +14,10 @@ My forked MagicMirror repo is on [GitHub](https://github.com/justinnaldzin/Magic
 A big thank you to [Michael Teeuw](michaelteeuw.nl).
 
 <p align="left">
-<img src="{filename}/images/magicmirror4.jpg" alt="MagicMirror4" width="220">
-<img src="{filename}/images/magicmirror2.jpg" alt="MagicMirror2" width="220">
-<img src="{filename}/images/magicmirror3.jpg" alt="MagicMirror3" width="220">
-<img src="{filename}/images/magicmirror1.jpg" alt="MagicMirror1" width="220">
-<img src="{filename}/images/magicmirror6.jpg" alt="MagicMirror6" width="220">
-<img src="{filename}/images/magicmirror7.jpg" alt="MagicMirror7" width="220">
+<a href="{filename}/images/magicmirror4.jpg"><img src="{filename}/images/magicmirror4.jpg" alt="MagicMirror4" width="220"></a>
+<a href="{filename}/images/magicmirror2.jpg"><img src="{filename}/images/magicmirror2.jpg" alt="MagicMirror2" width="220"></a>
+<a href="{filename}/images/magicmirror5.jpg"><img src="{filename}/images/magicmirror5.jpg" alt="MagicMirror5" width="220"></a>
+<a href="{filename}/images/magicmirror3.jpg"><img src="{filename}/images/magicmirror3.jpg" alt="MagicMirror3" width="220"></a>
+<a href="{filename}/images/magicmirror1.jpg"><img src="{filename}/images/magicmirror1.jpg" alt="MagicMirror1" width="220"></a>
+<a href="{filename}/images/magicmirror7.jpg"><img src="{filename}/images/magicmirror7.jpg" alt="MagicMirror7" width="220"></a>
 </p>
