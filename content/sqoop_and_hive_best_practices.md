@@ -2,6 +2,8 @@ Title: Sqoop and Hive Best Practices
 Date: 2017-4-7
 Category: Guides
 Tags: sqoop, hive, hadoop, hdfs
+Summary: The following describes the HDFS architecture and best practices of using Sqoop and Hive to load data from relational databases.
+
 
 The following describes the HDFS architecture and best practices of using Sqoop and Hive to load data from relational databases.
 
