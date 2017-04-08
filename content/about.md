@@ -9,7 +9,7 @@ My name is Justin Naldzin. I'm a **Data Engineer** living in **Philadelphia, PA*
 
 I'm currently working at [Penn Medicine](https://www.pennmedicine.org/) in the [Data Analytics Center](http://www.med.upenn.edu/dac/) where I science the sh\*t out of healthcare data.  Previously, I was a **Product Development Engineer** at [Comcast](https://www.comcast.com/) - responsible for the operations and infrastructure of the Xfinity OnDemand platform.
 
-I'm very passionate about technology and enjoy sharing knowledge to anyone with a similar curiosity.  Most of my work is on [GitHub](https://github.com/justinnaldzin/) with occasionally blog posts at [justinnaldzin.github.io](https://justinnaldzin.github.io/).  I'm not much of a socialite of media but you can reach me on:
+I'm very passionate about technology and enjoy sharing knowledge to anyone with a similar curiosity.  Most of my work is on [GitHub](https://github.com/justinnaldzin/) with occasional blog posts at [justinnaldzin.github.io](https://justinnaldzin.github.io/).  I'm not much of a socialite of media but you can reach me on:
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
