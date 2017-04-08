@@ -11,7 +11,7 @@ Here is my take on the [Magic Mirror](https://magicmirror.builders/) with a few 
 
 My forked MagicMirror repo is on [GitHub](https://github.com/justinnaldzin/MagicMirror).
 
-A big thank you to [Michael Teeuw](michaelteeuw.nl).
+A big thank you to [Michael Teeuw](http://michaelteeuw.nl/).
 
 <p align="left">
 <a href="{filename}/images/magicmirror4.jpg"><img src="{filename}/images/magicmirror4.jpg" alt="MagicMirror4" width="220"></a>

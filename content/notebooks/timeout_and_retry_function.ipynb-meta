@@ -1,5 +1,4 @@
 Title: Timeout and retry function
 Date: 2017-02-28
-Category: Notebooks
 Tags: python, jupyter
 Summary: The following are implementations on how to specify timeouts on functions that run for too long.  Additionally by using the retrying library, we are able to retry the function a specific number of times.
