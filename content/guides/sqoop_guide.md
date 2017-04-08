@@ -1,6 +1,5 @@
 Title: Sqoop Guide
 Date: 2017-4-1
-Category: Guides
 Tags: sqoop, hadoop, hdfs
 Summary: The following guide explains how to use Sqoop to transfer data from relational databases to Hadoop HDFS
 
