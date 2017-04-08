@@ -1,6 +1,8 @@
 Title: Create a website using GitHub Pages and Pelican
 Date: 2017-2-1
 Tags: pelican, python, github
+Summary: Using Pelican with GitHub Pages, this guide shows how to set up a static site for hosting and sharing projects.
+
 
 Using [Pelican](http://docs.getpelican.com) with [GitHub Pages](https://pages.github.com), this guide shows how to set up a static site for hosting and sharing projects.
 
