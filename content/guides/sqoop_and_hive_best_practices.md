@@ -104,7 +104,7 @@ hive -e "SELECT * FROM $DATABASE.$STAGE_TABLE LIMIT 10;"
 
 #### Production
 
-Run the Hive DDL
+Run the Hive DDL for **non-partitioned** table
 ```sh
 hive -e "CREATE EXTERNAL TABLE $DATABASE.$TABLE(
     <COLUMN_1> <DATATYPE>,
@@ -115,13 +115,33 @@ STORED AS ORC
 LOCATION '/data/${SCHEMA,,}/production/${TABLE,,}';"
 ```
 
-Copy data from Staging to Production
+Run the Hive DDL for **partitioned** table
 ```sh
-hive -e "SET hive.exec.dynamic.partition=true;"
+hive -e "CREATE EXTERNAL TABLE $DATABASE.$TABLE(
+    <COLUMN_1> <DATATYPE>,
+    ...
+    <COLUMN_n> <DATATYPE>
+)
+PARTITIONED BY (dt date)
+STORED AS ORC
+LOCATION '/data/${SCHEMA,,}/production/${TABLE,,}';"
+```
+
+Copy data from Staging to Production for **non-partitioned** table
+```sh
 hive -e "USE $DATABASE;"
 hive -e "INSERT INTO TABLE $DATABASE.$TABLE
          SELECT * FROM $DATABASE.$STAGE_TABLE;"
 hive -e "ANALYZE TABLE $DATABASE.$TABLE COMPUTE STATISTICS FOR COLUMNS;"
+```
+
+Copy data from Staging to Production for **partitioned** table
+```sh
+hive -e "SET hive.exec.dynamic.partition=true;"
+hive -e "USE $DATABASE;"
+hive -e "INSERT INTO TABLE $DATABASE.$TABLE PARTITION(dt)
+         SELECT *, CAST(<COLUMN> AS DATE) AS dt FROM $DATABASE.$STAGE_TABLE;"
+hive -e "ANALYZE TABLE $DATABASE.$TABLE PARTITION(dt) COMPUTE STATISTICS FOR COLUMNS;"
 ```
 
 Truncate Staging table
