@@ -30,6 +30,7 @@ SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/justinnaldzin'),
           ('Facebook', 'https://www.facebook.com/justinnaldzin'),
           ('Twitter', 'https://www.twitter.com/justinnaldzin'),)
 
+# Tags
 DISPLAY_TAGS_ON_SIDEBAR = True
 DISPLAY_TAGS_INLINE = True
 DEFAULT_PAGINATION = 10
