@@ -1,4 +1,4 @@
 Title: Linear Regression
 Date: 2017-03-27
-Tags: python, jupyter, bokeh
-Summary: A linear regression example of using the Bokeh visualization library.
+Tags: python, jupyter, bokeh, matplotlib
+Summary: A linear regression example using matplotlib and the Bokeh visualization library.
