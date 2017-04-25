@@ -1,6 +1,5 @@
 Title: Magic Mirror
 Date: 2017-2-7
-Category: Internet Of Things
 Tags: magic-mirror, iot
 
 
