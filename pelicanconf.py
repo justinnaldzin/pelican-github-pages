@@ -30,6 +30,8 @@ SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/justinnaldzin'),
           ('Facebook', 'https://www.facebook.com/justinnaldzin'),
           ('Twitter', 'https://www.twitter.com/justinnaldzin'),)
 
+DISPLAY_TAGS_ON_SIDEBAR = True
+DISPLAY_TAGS_INLINE = True
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
@@ -39,7 +41,7 @@ DEFAULT_PAGINATION = 10
 THEME = "pelican-themes/pelican-bootstrap3"
 JINJA_EXTENSIONS = ['jinja2.ext.i18n']
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['i18n_subsites', 'ipynb.markup']
+PLUGINS = ['i18n_subsites', 'ipynb.markup', 'tag_cloud']
 BOOTSTRAP_THEME = 'paper'
 PYGMENTS_STYLE = 'emacs'
 GITHUB_USER = 'justinnaldzin'
@@ -47,8 +49,6 @@ GITHUB_USER = 'justinnaldzin'
 # Jupyter
 MARKUP = ('md', 'ipynb')
 IPYNB_USE_META_SUMMARY = True
-
-
 
 
 
