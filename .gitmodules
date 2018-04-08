@@ -6,4 +6,4 @@
 	url = https://github.com/getpelican/pelican-plugins
 [submodule "output"]
 	path = output
-	url = https://github.com/username/username.github.io
+	url = https://github.com/justinnaldzin/justinnaldzin.github.io
