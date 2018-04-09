@@ -8,9 +8,9 @@ Summary: This guide shows how to use an initialization action to install Jupyter
 This guide shows how to use an initialization action to install Jupyter notebook and the PySpark kernel on a Cloud Dataproc cluster.
 
 <p align="center">
-<img src="images/logos/jupyter.png" alt="Jupyter" width="120" hspace="20" vspace="20" valign="middle">
+<img src="images/logos/jupyter.png" alt="Jupyter" hspace="20" vspace="20" valign="middle">
 <img src="images/logos/card_gcp_clouddataproc.png" alt="Cloud Dataproc" hspace="20" vspace="20" valign="middle">
-<img src="images/logos/spark.png" alt="Apache Spark" width="200" hspace="20" vspace="20" valign="middle">
+<img src="images/logos/spark.png" alt="Apache Spark" hspace="20" vspace="20" valign="middle">
 </p>
 
 ## Create a Cloud Storage bucket

@@ -10,8 +10,8 @@ Summary: [Kubernetes](https://kubernetes.io) is an open-source system for automa
 [Minikube](https://github.com/kubernetes/minikube) is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a VM on your laptop for users looking to try out Kubernetes or develop with it day-to-day.
 
 <p align="center">
-<img src="images/logos/kubernetes_logo.png" alt="Kubernetes" width="300" hspace="100" vspace="10">
-<img src="images/logos/kubernetes_name.png" alt="Kubernetes" width="300" hspace="100" vspace="10">
+<img src="images/logos/kubernetes_logo.png" alt="Kubernetes" hspace="100" vspace="10">
+<img src="images/logos/kubernetes_name.png" alt="Kubernetes" hspace="100" vspace="10">
 </p>
 
 ## Requirements

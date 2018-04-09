@@ -8,8 +8,8 @@ Summary: The following guide performs cloud-to-cloud replication from [Amazon Re
 The following guide performs cloud-to-cloud replication from [Amazon Relational Database Service (RDS)](https://aws.amazon.com/rds/) to [Google Cloud SQL](https://cloud.google.com/sql/docs/).
 
 <p align="center">
-<img src="images/logos/aws_rds.png" alt="RDS" height="200" hspace="50">
-<img src="images/logos/gcp_cloudsql.png" alt="Cloud SQL" height="200" hspace="50">
+<img src="images/logos/aws_rds.png" alt="RDS" hspace="50">
+<img src="images/logos/gcp_cloudsql.png" alt="Cloud SQL" hspace="50">
 </p>
 
 #### Requirements

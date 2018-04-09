@@ -4,7 +4,7 @@ Tags: google cloud platform, gcloud
 Summary: Configuring gcloud
 
 <p align="center">
-<img src="images/logos/gcp_googlecloud_vertical.png" alt="Google Cloud Platform" height="200" hspace="50">
+<img src="images/logos/gcp_googlecloud_vertical.png" alt="Google Cloud Platform" hspace="50">
 </p>
 
 # Configuring gcloud with user credentials

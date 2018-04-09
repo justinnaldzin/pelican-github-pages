@@ -10,7 +10,7 @@ This guide shows how to use an initialization action to install Cloud Datalab on
 <p align="center">
 <img src="images/logos/card_gcp_clouddatalab.png" alt="Cloud Datalab" hspace="20" vspace="20" valign="middle">
 <img src="images/logos/card_gcp_clouddataproc.png" alt="Cloud Dataproc" hspace="20" vspace="20" valign="middle">
-<img src="images/logos/spark.png" alt="Apache Spark" width="200" hspace="20" vspace="20" valign="middle">
+<img src="images/logos/spark.png" alt="Apache Spark" hspace="20" vspace="20" valign="middle">
 </p>
 
 ## Create a Cloud Storage bucket

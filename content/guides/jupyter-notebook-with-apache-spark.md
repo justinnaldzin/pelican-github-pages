@@ -14,7 +14,7 @@ This guide installs the following:
 - Apache Spark 2.3.0
 
 <p align="center">
-<img src="images/logos/jupyter.png" alt="Jupyter" width="200" valign="bottom" hspace="30" vspace="10">
+<img src="images/logos/jupyter.png" alt="Jupyter" valign="bottom" hspace="30" vspace="10">
 <img src="images/logos/spark.png" alt="Spark" valign="top" hspace="20" vspace="10">
 </p>
 
